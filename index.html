@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Home</title>
+
+  <link rel="stylesheet" href="assets/css/home_style.css">
+  <link rel="stylesheet" href="assets/css/rightnavbar.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="#">
+  <meta name="keywords"
+    content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+  <meta name="author" content="#">
+  <!-- Favicon icon -->
+
+  <!-- Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <!-- Required Fremwork -->
+  <link rel="stylesheet" type="text/css" href="bower_components\bootstrap\css\bootstrap.min.css">
+  <!-- feather Awesome -->
+  <link rel="stylesheet" type="text/css" href="assets\icon\feather\css\feather.css">
+  <!-- Style.css -->
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <link rel="stylesheet" type="text/css" href="assets\css\jquery.mCustomScrollbar.css">
+  
+
+  <!-- custom.css -->
+
+  <link rel="stylesheet" href="./assets/css/rightSideNav.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  
+
+  <!-- <script>
+    window.console = window.console || function (t) { };
+
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script> -->
+</head>
+
+<body>
+  <!-- Pre-loader start -->
+  <div class="theme-loader">
+    <div class="ball-scale">
+      <div class='contain'>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-loader end -->
+  <div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
+
+
+      <nav class="navbar header-navbar pcoded-header" style="background-color: black;">
+        <div class="navbar-wrapper">
+
+          <nav class="btn-pluss-wrapper1">
+            <div href="#" class="btn-pluss">
+              <ul>
+                <li><img src="./assets/images/tests.svg" alt="tests">
+                </li>
+                <li><img src="./assets/images/quizzes.svg" alt="quizzes"></li>
+                <li><img src="./assets/images/classes.svg" alt="classes"></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="navbar-logo" style="background-color: black;">
+            <a class="mobile-menu" id="mobile-collapse" href="#!">
+              <i class="feather icon-menu"></i>
+			      <a class="right_bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<span class="notinav bg-c-pink">5</span></a>
+
+            </a>
+
+            <a href="index.html">
+              <!-- <h1 style="color: white;">SHISKHARTHI</h1> -->
+              <img src="assets/images/slide1.png" alt="logo" style="height:40px; width: 100px; margin-left: 30px;">
+
+            </a>
+
+            <!-- <a class="mobile-options">
+              <i class="feather icon-more-horizontal"></i>
+			  
+            </a> -->
+          </div>
+		  
+
+
+
+          <div class="navbar-container container-fluid">
+            <ul class="nav-left">
+
+              <li>
+                <a href="#!" onclick="javascript:toggleFullScreen()">
+                  <i class="feather icon-maximize full-screen"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav-right">
+              <li class="header-search" style="width: 800px; margin-right:100px;">
+                <!-- <div class=" morphsearch-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-addon search-btn" style="background-color: black;"><i class="feather icon-search" ></i></span>
+                  </div>
+                </div> -->
+                <div class="row" style="background-color: black; margin-top: 15px; margin-left: 100px;">
+                  <h1 style="color: #fff; text-align: center; font-size: 200;"><b>Dr Goyals Dental Clinic and Implant Centre</b></h1>
+                </div>
+              </li>
+              <li class="header-notification">
+                <div class="dropdown-primary dropdown">
+                  <div class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="feather icon-bell"></i>
+                    <span class="badge bg-c-pink">3</span>
+                  </div>
+                  <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn"
+                    data-dropdown-out="fadeOut">
+					
+                    <li>
+                      <h6>Notifications</h6>
+                      <label class="label label-danger">New</label>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\slide1.png"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">Patient 1</h5>
+                          <p class="notification-msg">Brain Surgery</p>
+                          <span class="notification-time">30 minutes ago</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\slide1.png"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">Patient 2</h5>
+                          <p class="notification-msg">Heart Problem</p>
+                          <span class="notification-time">50 minutes ago</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\slide1.png"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">Patient 3</h5>
+                          <p class="notification-msg">Internel Bleeding & Diabetes</p>
+                          <span class="notification-time">1 day ago</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+			  
+              <li>
+                <nav class="btn-pluss-wrapper">
+
+                  <div href="#" class="btn-pluss">
+                    <ul>
+                      <li><img src="./assets/images/tests.svg" alt="tests">
+                      </li>
+                      <li><img src="./assets/images/quizzes.svg" alt="quizzes"></li>
+                      <li><img src="./assets/images/classes.svg" alt="classes"></li>
+                    </ul>
+                  </div>
+                </nav>
+              </li>
+              <li class="user-profile header-notification">
+                <div class="dropdown-primary dropdown">
+                  <div class="dropdown-toggle" data-toggle="dropdown">
+                    <img src="assets\images\paras.jpg" class="img-radius" alt="User-Profile-Image">
+                    <span style="color: white;"><strong>PARAS RASTOGI</strong></span>
+                    <i class="feather icon-chevron-down"></i>
+                  </div>
+                  <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn"
+                    data-dropdown-out="fadeOut">
+                    
+                    <li>
+                      <a href="auth-normal-sign-in.htm">
+                        <i class="feather icon-log-out"></i> Logout
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </li>
+			  
+			  
+			  
+
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+
+      
+      <div class="pcoded-main-container" >
+        
+        <div class="pcoded-wrapper">
+
+          <nav class="pcoded-navbar">
+            <div class="pcoded-inner-navbar main-menu" style="background-color: black;">
+
+              <ul class="pcoded-item pcoded-left-item">
+                <li class=" ">
+                  <a href="index.html">
+                    <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                    <span class="pcoded-mtext">DASHBOARD</span>
+                  </a>
+              </ul>
+              <ul class="pcoded-item pcoded-left-item">
+                <li class=" ">
+                  <a href="mcqfy/index.html">
+                    <span class="pcoded-micon"><i class="fa fa-user"></i></span>
+                    <span class="pcoded-mtext">About Us</span>
+                  </a>
+
+                </li>
+
+
+                <li>
+                  <a href="clear_doubts.html">
+                    <span class="pcoded-micon"><i class="fa fa-image"></i></span>
+                    <span class="pcoded-mtext">PHOTOES</span>
+                  </a>
+
+                </li>
+                <li>
+                  <a href="calander.html">
+                    <span class="pcoded-micon"><i class="fa fa-cogs"></i></span>
+                    <span class="pcoded-mtext">SERVICES</span>
+                  </a>
+
+                </li>
+                <li>
+                  <a href="ncert_solutions.html">
+                    <span class="pcoded-micon"><i class="fa fa-video-camera"></i></span>
+                    <span class="pcoded-mtext">VIDEOS</span>
+                  </a>
+
+                </li>
+              </ul>
+            <ul class="pcoded-item pcoded-left-item">
+                <li class=" ">
+                  <a href="resources.html">
+                    <span class="pcoded-micon"><i class="fa fa-phone"></i></span>
+                    <span class="pcoded-mtext">CONTACT US</span>
+                  </a>
+
+                </li>
+              </ul>
+          </nav>
+
+          <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+              <div class="main-body">
+                <div class="page-wrapper">
+
+                  <div class="page-body">
+                    <div class="row">
+                      <!-- task, page, download counter  start -->
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-yellow update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-13">
+                                <h4 class="text-white">DASHBOARD</h4>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-green update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-9">
+                                <h4 class="text-white">AboutUs</h4>
+                                
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-pink update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-9">
+                                <a href="Photoes"><h4 class="text-white">Photoes</h4></a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-blue update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-9">
+                                <h4 class="text-white">Services</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-pink update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-9">
+                                <a href="Photoes"><h4 class="text-white">Videos</h4></a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-md-4">
+                        <div class="card bg-c-blue update-card">
+                          <div class="card-block">
+                            <div class="row align-items-end">
+                              <div class="col-12">
+                                <h4 class="text-white">Contact Us</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+						          </div>
+                      <!-- task, page, download counter  end -->
+
+                      <!--  sale analytics start -->
+                      <div class="col-xl-9 col-md-12">
+                        <div class="card">
+
+                          <div class="caro">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="2000">
+                                  <img src="assets/images/slide1.jpg" class="d-block w-100" alt="slide1">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="assets/images/slide2.jpg" class="d-block w-100" alt="slide2">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="assets/images/slide3.jpg" class="d-block w-100" alt="slide3">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="assets/images/slide3.jpg" class="d-block w-100" alt="slide3">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                  <img src="assets/images/slide5.jpg" class="d-block w-100" alt="slide3">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-md-12">
+                        <div class="card user-card2">
+                          <div class="card-block text-center">
+                            <h4 class="m-b-15">Ai Report</h4>
+                            <div class="risk-rate">
+                              <span><b>5</b></span>
+                            </div>
+                            <h6 class="m-b-10 m-t-10">Balanced</h6>
+                            <a href="#!" class="text-c-yellow b-b-warning">Change Your Risk</a>
+                            <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                              <div class="col m-t-15 b-r-default">
+                                <h6 class="text-muted">Nr</h6>
+                                <h6>AWS 2455</h6>
+                              </div>
+                              <div class="col m-t-15">
+                                <h6 class="text-muted">Created</h6>
+                                <h6>30th Sep</h6>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-warning btn-block p-t-15 p-b-15">Download Overall Report</button>
+                        </div>
+                      </div>
+                      <!--  sale analytics end -->
+
+                      <div class="col-xl-8 col-md-12">
+                        <div class="card table-card">
+                          <div class="card-header">
+                            <h4>Today's Reports</h4>
+
+                          </div>
+                          <div class="card-block">
+                            
+
+                            <div class="grid-container">
+                              <div class="grid-item">
+
+                                <div id="rcorners4">
+
+                                  <div class="row">
+                                    <div class="column1">
+                                      <div class="level">
+                                        4th October
+                                      </div>
+                                      <img class="logo1" src="assets/images/slide1.png" alt="">
+                                      <button class="quiz-btn center">Patient Report</button>
+                                    </div>
+                                    <div class="column2">
+                                      <h1 class="topic_name">Dental Clinic</h1>
+                                      <p class="topic">Case : Heart Injury</p>
+                                      <p class="ratings">Progress
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star rate"></span>
+                                      </p>
+
+                                      <div class="stats1">
+                                        <div>
+                                          <div class="title">Time</div>
+                                          <i class="fa fa-clock-o"></i>
+                                          <div class="value">2</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Difficulty</div>
+                                          <i class="fa fa-level-up"></i>
+                                          <div class="value">Hard</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">People</div>
+                                          <i class="fa fa-group"></i>
+                                          <div class="value">123</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Problems</div>
+                                          <i class="fa fa-question"></i>
+                                          <div class="value ">10</div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="overlay">
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="grid-item">
+
+                                <div id="rcorners4">
+
+                                  <div class="row">
+                                    <div class="column1">
+                                      <div class="level">
+                                        4th October
+                                      </div>
+                                      <img class="logo1" src="assets/images/slide1.png" alt="">
+                                      <button class="quiz-btn center">Patient Report</button>
+                                    </div>
+                                    <div class="column2">
+                                      <h1 class="topic_name">Dental Clinic</h1>
+                                      <p class="topic">Case : Heart Attack</p>
+                                      <p class="ratings">Progress
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star rate"></span>
+                                      </p>
+
+                                      <div class="stats1">
+                                        <div>
+                                          <div class="title">Time</div>
+                                          <i class="fa fa-clock-o"></i>
+                                          <div class="value">2</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Difficulty</div>
+                                          <i class="fa fa-level-up"></i>
+                                          <div class="value">Hard</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">People</div>
+                                          <i class="fa fa-group"></i>
+                                          <div class="value">123</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Problems</div>
+                                          <i class="fa fa-question"></i>
+                                          <div class="value ">10</div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="overlay">
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="grid-item">
+
+                                <div id="rcorners4">
+
+                                  <div class="row">
+                                    <div class="column1">
+                                      <div class="level">
+                                        4th October
+                                      </div>
+                                      <img class="logo1" src="assets/images/slide1.png" alt="">
+                                      <button class="quiz-btn center">Patient Report</button>
+                                    </div>
+                                    <div class="column2">
+                                      <h1 class="topic_name">Dental Clinic</h1>
+                                      <p class="topic">Case : Stomach Pain</p>
+                                      <p class="ratings">Progress
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star rate"></span>
+                                      </p>
+
+                                      <div class="stats1">
+                                        <div>
+                                          <div class="title">Time</div>
+                                          <i class="fa fa-clock-o"></i>
+                                          <div class="value">2</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Difficulty</div>
+                                          <i class="fa fa-level-up"></i>
+                                          <div class="value">Hard</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">People</div>
+                                          <i class="fa fa-group"></i>
+                                          <div class="value">123</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Problems</div>
+                                          <i class="fa fa-question"></i>
+                                          <div class="value ">10</div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="overlay">
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="grid-item">
+
+                                <div id="rcorners4">
+
+                                  <div class="row">
+                                    <div class="column1">
+                                      <div class="level">
+                                        4th October
+                                      </div>
+                                      <img class="logo1" src="assets/images/slide1.png" alt="">
+                                      <button class="quiz-btn center">Patient Report</button>
+                                    </div>
+                                    <div class="column2">
+                                      <h1 class="topic_name">Dental Clinic</h1>
+                                      <p class="topic">Case : Diabetes</p>
+                                      <p class="ratings">Progress
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star checked rate"></span>
+                                        <span class="fa fa-star rate"></span>
+                                      </p>
+
+                                      <div class="stats1">
+                                        <div>
+                                          <div class="title">Time</div>
+                                          <i class="fa fa-clock-o"></i>
+                                          <div class="value">2</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Difficulty</div>
+                                          <i class="fa fa-level-up"></i>
+                                          <div class="value">Hard</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">People</div>
+                                          <i class="fa fa-group"></i>
+                                          <div class="value">123</div>
+                                        </div>
+                                        <div>
+                                          <div class="title">Problems</div>
+                                          <i class="fa fa-question"></i>
+                                          <div class="value ">10</div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="overlay">
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              
+
+                            </div>
+
+
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-md-12">
+                        <div class="card user-activity-card">
+                          <div class="card-header">
+                            <h4>Todays Cases</h4>
+                          </div>
+                          <div class="card-block">
+                            <div class="row m-b-25">
+                              <div class="col-auto p-r-0">
+
+                              </div>
+                              <div class="col">
+                                <h6 class="m-b-5">John Deo</h6>
+                                <p class="text-muted m-b-0">Injured in A Road Accident.</p>
+                                <p class="text-muted m-b-0"><i class="feather icon-clock m-r-10"></i>50 min ago</p>
+                              </div>
+                            </div>
+                            <div class="row m-b-25">
+                              <div class="col-auto p-r-0">
+
+                              </div>
+                              <div class="col">
+                                <h6 class="m-b-5">Jahanvi</h6>
+                                <p class="text-muted m-b-0">Brain Hamerage</p>
+                                <p class="text-muted m-b-0"><i class="feather icon-clock m-r-10"></i>2 day ago</p>
+                              </div>
+                            </div>
+                            <div class="row m-b-25">
+                              <div class="col-auto p-r-0">
+
+                              </div>
+                              <div class="col">
+                                <h6 class="m-b-5">Ayushi</h6>
+                                <p class="text-muted m-b-0">Mental Disorder.</p>
+                                <p class="text-muted m-b-0"><i class="feather icon-clock m-r-10"></i>3 days ago</p>
+                              </div>
+                            </div>
+                            <div class="row m-b-5">
+                              <div class="col-auto p-r-0">
+
+                              </div>
+                              <div class="col">
+                                <h6 class="m-b-5">Suresh</h6>
+                                <p class="text-muted m-b-0">Heart Attack.</p>
+                                <p class="text-muted m-b-0"><i class="feather icon-clock m-r-10"></i>2 min ago</p>
+                              </div>
+                            </div>
+
+                            <div class="text-center">
+                              <a href="#!" class="b-b-primary text-primary">View More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+		  <div id="mySidenav" class="sidenav">
+  <br>
+  <br>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a><div class="topnav"><input type="text" placeholder="Search.."></div></a>
+  
+                <div class="dropdown-primary dropdown">
+                  <div class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="feather icon-bell"></i>
+                    <span class="badge bg-c-pink">5</span>
+                  </div>
+                  <ul class="notimobi show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn"
+                    data-dropdown-out="fadeOut">
+					
+                    <li>
+                      <h6>Notifications</h6>
+                      <label class="label label-danger">New</label>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\avatar-4.jpg"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">John Doe</h5>
+                          <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                          <span class="notification-time">30 minutes ago</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\avatar-3.jpg"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">Joseph William</h5>
+                          <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                          <span class="notification-time">30 minutes ago</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <img class="d-flex align-self-center img-radius" src="assets\images\avatar-4.jpg"
+                          alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="notification-user">Sara Soudein</h5>
+                          <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                          <span class="notification-time">30 minutes ago</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+  
+  <br><br>
+  <a href="#">Logout</a>
+</div> 
+
+  <!-- Required Jquery -->
+  <script data-cfasync="false" src="..\..\..\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js"></script>
+  <script type="text/javascript" src="bower_components\jquery\js\jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+  <script type="text/javascript" src="bower_components\popper.js\js\popper.min.js"></script>
+  <script type="text/javascript" src="bower_components\bootstrap\js\bootstrap.min.js"></script>
+  <!-- jquery slimscroll js -->
+  <script type="text/javascript" src="bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+  <!-- modernizr js -->
+  <script type="text/javascript" src="bower_components\modernizr\js\modernizr.js"></script>
+  <!-- Chart js -->
+  <script type="text/javascript" src="bower_components\chart.js\js\Chart.js"></script>
+  <!-- amchart js -->
+  <script src="assets\pages\widget\amchart\amcharts.js"></script>
+  <script src="assets\pages\widget\amchart\serial.js"></script>
+  <script src="assets\pages\widget\amchart\light.js"></script>
+  <script src="assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+  <script type="text/javascript" src="assets\js\SmoothScroll.js"></script>
+  <script src="assets\js\pcoded.min.js"></script>
+
+  <!-- custom js -->
+  <script src="assets\js\vartical-layout.min.js"></script>
+  <script type="text/javascript" src="assets\pages\dashboard\custom-dashboard.js"></script>
+  <script type="text/javascript" src="assets\js\script.min.js"></script>
+  <script src="./assets/js/sideBarNav.js"></script>
+  <script>function openNav() {  var x = document.getElementById("mySidenav");  if (x.style.width === "100%") {    x.style.width = "0%";  } else {    x.style.width = "100%";  }}function closeNav() {  document.getElementById("mySidenav").style.width = "0%";}</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script> -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+import java.io.*;
+public class read_file
+{
+ public static void main(String args[])
+ { 
+  try{ 
+  FileReader fin = new FileReader("paras.txt");
+  BufferedReader bin = new BufferedReader(fin);
+  String text;
+  int i=1;
+  while((text=bin.readLine())!= null)
+  {
+    System.out.println("name "+i+":"+ text);
+    i++;
+  }
+  fin.close();
+    }
+   catch(IOException e)
+   {System.err.println(e);}
+ } 
+}

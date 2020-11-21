@@ -1,0 +1,72 @@
+.floatp {
+	float: right; 
+	margin-left: 23px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column1 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 300px;
+    
+}
+
+.column2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 300px;
+    
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+        margin-top: -55px;
+}
+
+.more {
+    padding: 0 45%;
+}
+
+@media screen and (max-width: 1000px) {
+	
+.column1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+	margin-top: -100px;
+    
+}
+
+.column2 {
+	display: none;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+    
+}
+	
+	
+	
+}
+
+
+
+
+
